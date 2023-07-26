@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content = "width=device-width, initial-scale-1.0">
+        <title>Teddy's</title>
+        <link rel = "icon" type = "image" href = "./Assets/img/">
+        <!--js link-->
+        <script src = "script.js"></script>
+        <!--Css Links-->
+        <link rel = "stylesheet" href = "./Assets/CSS/index.css">
+        <!--BoxIcons-->
+        <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    </head>
+    <body>
+        <!--Navbar-->
+        <header>
+            <div class = "nav container">
+                <!--Logo-->
+                <a href = "index.html" class = "logo"><img src = Assets/img/nidari-nobackground.png></a>
+
+                <!--Nav ist-->
+                <ul class = "navbar">
+                    <li><a href = "#home">Home</a></li>
+                    <li><a href = "#skills">Skills</a></li>
+                    <li><a href = "#projects">Projects</a></li>                   
+                </ul>
+
+                <!--Contact me-->
+                <a href="#footer" class="btn">Contacts</a>
+
+                <!--User Icon-->
+                <div class = "iconbtn">
+                    <a href="#about"><i class='bx bx-user'></i></a>
+                </div>
+                
+            </div>
+        </header>
+
+        <!--Home-->
+        <section class="home container" id = "home">
+
+                <div class = "home-text">
+                <h1>Hello there<br>I'm Brian Teddy</h1>
+                <p>I am a front-end developer, game developer and designer.<br>
+                </p>
+                
+                </div>
+
+                <div class = "motion">
+                    <div class = "circle"></div>
+                </div>
+            
+        </section>
+
+        <!--Skills-->
+        <section class="sales container" id = "skills">
+            <!--Box 1-->
+            <a href = "signup.html"><div class = "box">
+                <i class='bx bx-user'></i>
+                <h3>Front-end Development</i></h3>
+                <p>Profficient in html, css and javascript. <br>Use of frameworks such as React and Figma</p>
+            </div></a>
+            
+            <!--Box 2-->
+            <a href = "signup.html"><div class = "box">
+                <i class='bx bx-desktop'></i>
+                <h3>Game Development</h3>
+                <p>Game development in Unity .<br>Use of C# to make 3D and 2D games</p>
+            </div></a>
+            
+            <!--Box 3-->
+            <a href = "listings.html"><div class = "box">
+                <i class='bx bx-home-alt'></i>
+                <h3>Animation and Graphic design</h3>
+                <p>Creating of animated videos that <br>
+                    can be used for branding and identity</p>
+            </div></a>
+        </section>
+
+        <!--Project Gallery-->
+        <section class = "properties container" id ="projects">
+            <div class="heading">
+                <a href = "project.html"><h2>Featured Projects</h2></a>
+                <p>Here are some of the projects I have been involved in</p>
+            </div> 
+            <div class="properties-container container">
+                <!--Box 1-->
+                <div class = "box">
+                     <a href = "Real.Estate.App/index.html"><img src = "Assets/img/realestate.png" alt = ""></a>
+                     <h3>Real Estate Site</h3>
+                     <div class="content">
+                         <div class="text">
+                             <h3>HTML,CSS,javascript</h3>
+                             <p>Web App</p>
+                         </div>
+                         <div class="icon">
+                             <i class='bx bx-bed'><span></span></i>
+                             <i class='bx bx-bath'><span></span></i>
+                         </div>
+                     </div>
+                </div>
+ 
+                 <!--Box 2-->
+                 <div class = "box">
+                     <a href = "gameplay.html"><img src = "Assets/img/Lunar.png" alt = ""></a>
+                     <h3>Game Dev</h3>
+                     <div class="content">
+                         <div class="text">
+                             <h3>3D Game Development</h3>
+                             <p>A game made in Unity</p>
+                         </div>
+                         <div class="icon">
+                             <i class='bx bx-bed'><span></span></i>
+                             <i class='bx bx-bath'><span></span></i>
+                         </div>
+                     </div>
+                </div>
+ 
+                 <!--Box 3-->
+                 <div class = "box">
+                     <a href = "videoplayer.html"><img src = "Assets/img/Only One Left.png" alt = ""></a>
+                     <h3>Animated Video</h3>
+                     <div class="content">
+                         <div class="text">
+                             <h3>2D Animation</h3>
+                             <p>Animation program</p>
+                         </div>
+                         <div class="icon">
+                             <i class='bx bx-bed'><span></span></i>
+                             <i class='bx bx-bath'><span></span></i>
+                         </div>
+                     </div>
+                </div>               
+            </div>
+           
+         </section>
+         
+         <!--About-->
+        <section class="about container" id = "about">
+            <div class = "about-img">
+                <video autoplay loop muted>
+                    <source src = "Assets/img/nidari-logo-animation.mp4" type = "video/mp4">
+               </video>
+            </div>
+            <div class="about-text">
+                <span>About Me</span>
+                <h2>Computer Science graduate from Strathmore University</h2>
+                <p>I am a software developer with passion for giving a story through the creation of well designed interfaces and <br>
+                    graphics.<br></p>
+                <p>I have done various projects in game development, web development as well as animations. <br>
+                With previous job experiences in server maintenance, network maintenance and software deployment. </p>
+                <a href="Assets/Documents/CV Brian Omondi.pdf" download class="btn">Know More</a>
+            </div>
+        </section>
+
+        
+
+        <!--NewsLetter
+        <section class="newsletter container">
+            <h2>Any questions?</h2>
+            <form action = "">
+                <input type = "email" name = "" id = "email-box" placeholder = "yourmail@gmail.com">
+                <input type = "submit" value = "send" class = "btn">
+            </form>
+        </section>-->
+
+        <!--Footer-->
+        <section class="footer" id = "footer">
+            <div class="footer-container container">
+                <h2>Nidari</h2>
+                
+
+                <div class="footer-box">
+                    <h3>Locations</h3>
+                    <a href="#">Nairobi</a>
+                    <a href="#">Utawala</a>
+                </div>
+
+                <div class="footer-box">
+                    <h3>Contacts</h3>
+                    <a href="#">0715551982</a>
+                    <a href="#">teddybrian543@gmail.com</a>
+                    <div class = "social">
+                        <a href = "#"><i class='bx bxl-instagram'></i></a>
+                        <a href = "#"><i class='bx bxl-twitter'></i></a>
+                        <a href = "#"><i class='bx bxl-facebook'></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Copyright-->
+        <div class="copyright">
+            <p>&#169; Brian Teddy All Rights Reserved</p>
+        </div>
+
+    </body>
+</html>
+
